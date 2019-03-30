@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B6C3793F224FF87D00EB9698 /* デリゲート_プロトコル_study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "デリゲート_プロトコル_study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C3793F224FF87D00EB9698 /* delegate_protocol_study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = delegate_protocol_study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C37942224FF87D00EB9698 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6C37944224FF87D00EB9698 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6C37947224FF87D00EB9698 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		B6C37936224FF87D00EB9698 = {
 			isa = PBXGroup;
 			children = (
-				B6C37941224FF87D00EB9698 /* デリゲート_プロトコル_study */,
+				B6C37941224FF87D00EB9698 /* delegate_protocol_study */,
 				B6C37940224FF87D00EB9698 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		B6C37940224FF87D00EB9698 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6C3793F224FF87D00EB9698 /* デリゲート_プロトコル_study.app */,
+				B6C3793F224FF87D00EB9698 /* delegate_protocol_study.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B6C37941224FF87D00EB9698 /* デリゲート_プロトコル_study */ = {
+		B6C37941224FF87D00EB9698 /* delegate_protocol_study */ = {
 			isa = PBXGroup;
 			children = (
 				B6C37942224FF87D00EB9698 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				B6C3794B224FF87E00EB9698 /* LaunchScreen.storyboard */,
 				B6C3794E224FF87E00EB9698 /* Info.plist */,
 			);
-			path = "デリゲート_プロトコル_study";
+			path = delegate_protocol_study;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B6C3793E224FF87D00EB9698 /* デリゲート_プロトコル_study */ = {
+		B6C3793E224FF87D00EB9698 /* delegate_protocol_study */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6C37951224FF87E00EB9698 /* Build configuration list for PBXNativeTarget "デリゲート_プロトコル_study" */;
+			buildConfigurationList = B6C37951224FF87E00EB9698 /* Build configuration list for PBXNativeTarget "delegate_protocol_study" */;
 			buildPhases = (
 				B6C3793B224FF87D00EB9698 /* Sources */,
 				B6C3793C224FF87D00EB9698 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = "デリゲート_プロトコル_study";
+			name = delegate_protocol_study;
 			productName = "デリゲート_プロトコル_study";
-			productReference = B6C3793F224FF87D00EB9698 /* デリゲート_プロトコル_study.app */;
+			productReference = B6C3793F224FF87D00EB9698 /* delegate_protocol_study.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B6C3793A224FF87D00EB9698 /* Build configuration list for PBXProject "デリゲート_プロトコル_study" */;
+			buildConfigurationList = B6C3793A224FF87D00EB9698 /* Build configuration list for PBXProject "delegate_protocol_study" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B6C3793E224FF87D00EB9698 /* デリゲート_プロトコル_study */,
+				B6C3793E224FF87D00EB9698 /* delegate_protocol_study */,
 			);
 		};
 /* End PBXProject section */
@@ -283,12 +283,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "デリゲート_プロトコル_study/Info.plist";
+				DEVELOPMENT_TEAM = 6ND7Y7Z95U;
+				INFOPLIST_FILE = "$(SRCROOT)/delegate_protocol_study/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.---------------study";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.delegate-protocol-study";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +301,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "デリゲート_プロトコル_study/Info.plist";
+				DEVELOPMENT_TEAM = 6ND7Y7Z95U;
+				INFOPLIST_FILE = "$(SRCROOT)/delegate_protocol_study/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.---------------study";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.delegate-protocol-study";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B6C3793A224FF87D00EB9698 /* Build configuration list for PBXProject "デリゲート_プロトコル_study" */ = {
+		B6C3793A224FF87D00EB9698 /* Build configuration list for PBXProject "delegate_protocol_study" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6C3794F224FF87E00EB9698 /* Debug */,
@@ -324,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6C37951224FF87E00EB9698 /* Build configuration list for PBXNativeTarget "デリゲート_プロトコル_study" */ = {
+		B6C37951224FF87E00EB9698 /* Build configuration list for PBXNativeTarget "delegate_protocol_study" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6C37952224FF87E00EB9698 /* Debug */,
